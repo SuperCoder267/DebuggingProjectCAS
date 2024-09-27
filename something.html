@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging Example</title>
+</head>
+<body>
+    <h1>Debugging JavaScript</h1>
+    <p>Check the browser's console for error messages.</p>
+
+    <script>
+        function testFunction() {
+            console.log("This is a correct log.");
+            
+            // Intentional mistake for debugging
+            console.logg("This is an incorrect log."); // Typo in function name will cause an error
+        }
+        testFunction();
+    </script>
+</body>
+</html>
